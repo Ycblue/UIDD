@@ -1,0 +1,37 @@
+body {
+	background-color: black;
+}
+
+div.Background {
+	background-image: url("pictures/u2.jpg");
+	background-repeat: no-repeat;
+	height: 570px;
+	width: 570px;
+	margin: 0 auto;
+	background-size: cover;
+}
+#hiddendiv{
+	position: absolute;
+	width: 570px;
+	display: none;
+	margin: 50px auto;
+}
+#hiddentext{
+	color: white;
+	text-align:center;
+	
+}
+a img{
+	display: block;
+	margin: 0 auto;
+}
+
+#checkpoint{
+	position: absolute;
+	repeat: no-repeat;
+	height: 200px;
+	width: 570px;
+	margin: 450px auto;
+	z-index: 1;
+	
+}

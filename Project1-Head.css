@@ -1,0 +1,38 @@
+body {
+	background-color: black;
+}
+
+div.Background {
+	background-image: url("pictures/u0.jpg");
+	background-repeat: no-repeat;
+	height: 570px;
+	width: 570px;
+	margin: 0 auto;
+	background-size: cover;
+}
+
+img{
+	
+	display: block;
+	width: 74px;
+	height: auto;
+	margin: 20px auto;
+}
+
+#text {
+	
+	font-family: Arial;
+	color: #E84B36;
+	font-size: 18;
+	text-align: center;
+	margin-top: 75%;	
+}
+#start-button{
+	
+	width: 50%;
+	margin: auto;
+}
+#butimg{
+	height: auto;
+	width:279px;
+}
