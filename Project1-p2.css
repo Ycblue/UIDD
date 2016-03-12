@@ -15,10 +15,12 @@ div.Background {
 	width: 570px;
 	display: none;
 	margin: 50px auto;
+	box-sizing: border-box;
+	padding: 0 100px;
 }
 #hiddentext{
 	color: white;
-	text-align:center;
+	text-align: justify;
 	
 }
 a img{
@@ -30,8 +32,41 @@ a img{
 	position: absolute;
 	repeat: no-repeat;
 	height: 200px;
-	width: 570px;
-	margin: 450px auto;
+	width: 200px;
+	margin: 450px 14.5%;
 	z-index: 1;
 	
+}
+table{
+	margin: 0 auto;
+}
+div.botbox{
+	border: 2px solid black;
+	background-color: grey;
+	border-radius: 20px;
+	height: 50px;
+	width: 280px;
+	line-height: 50px;
+}
+#moneyimg{
+	vertical-align: middle;
+	
+	height: 30px;
+	width: auto;
+	margin-left: 10px;
+	margin-right: 0;
+	
+}
+#scorep{
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 25px;
+	vertical-align: middle;
+}
+#nextdiv{
+	text-align:right;
+}
+#next{
+	font-size:25px;
+	padding:10px;
 }
