@@ -3,7 +3,7 @@ body {
 }
 
 div.Background {
-	background-image: url("../pictures/u2.jpg");
+	background-image: url("../pictures/u4.jpg");
 	background-repeat: no-repeat;
 	height: 570px;
 	width: 570px;
@@ -21,6 +21,15 @@ div.Background {
 	color: white;
 	text-align: justify;
 	
+}
+#wrongdiv{
+  	position: absolute;
+	width: 570px;
+	margin: 100px auto;
+	box-sizing: border-box;
+	color: red;
+	font-size: 200px;
+	text-align: center;
 }
 #checkimg{
 	display: block;
